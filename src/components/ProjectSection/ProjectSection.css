@@ -1,0 +1,45 @@
+:root {
+    --bgOrange: #e84949;
+}
+
+.project_section{
+    background-color: rgb(231,231,231);
+    margin-top:4rem;
+    position: relative;
+}
+
+.project_container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 0;
+
+    display:flex;
+    flex-direction:column;
+    gap:120px;
+}
+
+.page_header{
+    color: var(--bgOrange);
+    font-size: 90px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.project_card{
+    width: 90%;
+    height: 550px;
+
+}
+
+
+.project_add_button{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+
+}
+
+/* .modal_absolute{
+    position: absolute;
+} */

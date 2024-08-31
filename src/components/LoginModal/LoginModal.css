@@ -1,0 +1,111 @@
+/* .login_modal{
+    display: grid;
+    overflow: auto; 
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    place-items: center; 
+    background-color: #ffffff; 
+    --bg-opacity: 0.1; 
+    backdrop-filter: blur(4px); 
+    
+} */
+
+.login_modal{
+    /* display: grid; */
+    position: fixed;
+    overflow: auto;
+    z-index: 20;
+    backdrop-filter: blur(1px);
+    height: 30rem;
+    width: 30rem;
+    transform: translate(0, 10rem);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+.cross_nav{
+    cursor: pointer;
+}
+
+
+.cross_nav{
+    height: 2rem;
+    width: full;
+    background-color:rgb(137, 134, 129);
+    border-bottom: solid;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.login_cross{
+    font-size: 1.5rem;
+    transform: translateX(-1rem);
+    margin-top: 0.3rem;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.email_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_Text{
+    font-size: 2rem;
+    transform: translateX(-7.7rem);    
+}
+
+.input_Text_pass{
+    font-size: 2rem;
+    transform: translateX(-6rem); 
+}
+
+.login_Input{
+    border: 3px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    line-height: normal;
+    color: #282828;
+    display: block;
+    width: 20rem;
+    box-sizing: border-box;
+    user-select: auto;
+    font-size: 16px;
+    padding: 0 6px;
+    padding-left: 12px;
+    transform: translateX(4rem);
+}
+
+.login_button{
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    width: 5rem;
+    transform: translateX(12rem);
+}
+

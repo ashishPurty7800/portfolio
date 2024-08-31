@@ -1,0 +1,60 @@
+.footer_container{
+    width: 100vw;
+    height: 15rem;
+    margin: 0 auto;
+    background-color: #343d68;
+}
+
+.footer_wrapper{
+    display: flex;
+    gap: 1rem;
+    padding: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.footer_faded_text{
+    position: absolute;
+    bottom: -9rem;
+    color: #535c87;
+    user-select: none;
+    font-size: 5em;
+}
+
+.footer_link{
+    display: flex;
+    gap: 1.2rem;
+    color: white;
+    /* position: absolute; */
+
+}
+
+.footer_skillandIcon{
+    display: flex;
+    gap: 40rem;
+    transform: translate(11rem, 5rem);
+}
+
+.footer_icons{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+
+
+.icon_point{
+    cursor: pointer;
+    color: white;
+}
+
+/* .icon_point:hover {
+    color: #e84949;
+    transition: all 0.5s;
+} */
+
+.icon_point:hover{
+    color: #e84949;
+    transition: all 0.5s;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.nav_Line{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgb(251, 249, 249), rgba(0, 0, 0, 0.75), rgba(251, 249, 249));
 }

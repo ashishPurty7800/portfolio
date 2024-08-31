@@ -1,0 +1,94 @@
+
+
+.skill_container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 3rem;
+    
+}
+
+
+:root {
+    --bgOrange: #e84949;
+}
+
+/* skill left section */
+
+.skill_container_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 5rem;
+}
+
+.skill_heading{
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--bgOrange);
+    line-height: 50px;
+}
+
+.caps{
+    font-size: 90px;
+    margin-left: -6.5rem;
+}
+
+.skill_subHeading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+}
+
+
+
+
+
+/* skill right section */
+
+.skill_container_right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.skills_logo{
+    width: 90px;
+    transition: all 0.5s;
+}
+
+.blob_style{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    z-index: -5;
+    transform: translateX(-50%, -50%);
+    animation: blobAnimate 3s linear infinite;
+}
+
+@keyframes blobAnimate {
+
+    50%{
+        top: 25%;
+        left: 25%;
+    }
+    
+}
+
+
+/* skill faded text */
+.skill_fade_text{
+    position: absolute;
+    font-size: 15em;
+    font-style: bold;
+    color: rgb(231, 231, 231);
+    bottom: -34%;
+    right: 2%;
+    user-select: none;
+    
+}
